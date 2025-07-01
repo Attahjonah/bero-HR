@@ -1,4 +1,24 @@
 # bero-HR
+employee-management-system/
+│
+├── src/
+│   ├── config/             # DB, environment, constants
+│   ├── controllers/        # Route logic
+│   ├── middlewares/        # Auth, error handling
+│   ├── models/             # Prisma schema (managed by Prisma)
+│   ├── routes/             # API routes
+│   ├── services/           # Business logic
+│   ├── utils/              # Helpers (e.g. email, time calc)
+│   ├── app.ts              # Express app
+│   └── server.ts           # Entry point
+│
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── prisma/
+    └── schema.prisma       # Prisma schema
+
 # Employee Management System
 
 This project is an **Employee Management System** built with **Node.js**, **Express**, and **PostgreSQL** for robust and scalable backend logic. The system is designed to help organizations manage employee records, roles, departments, and more efficiently.
